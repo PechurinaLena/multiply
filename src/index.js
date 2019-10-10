@@ -1,5 +1,5 @@
 module.exports = function multiply(first, second) {
 	// your solution
-	let number = first * second;
+	let number = BigInt(first) * BigInt(second);
 	return number.toString();
 };
